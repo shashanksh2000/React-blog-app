@@ -1,0 +1,16 @@
+{
+  "blogs": [
+    {
+      "title": "My First Blog",
+      "body": "This is my first blog on this app to test the working.\n\nLet's keep this short, it's working fine and updating every content as it is supposed to. There is no login support as it is just to learn react app and all contributions are welcome.\n\nYou can find the dev details to run this app on github.\n\nThis was a great experience and I got to learn react.\nCheers!!",
+      "author": "Shashank Sharma",
+      "id": 1
+    },
+    {
+      "title": "About App",
+      "body": "It is a blogging app that I developed to learn react and it allows users to add and delete blogs. It is not ready for production as anyone can add or delete blogs and if you wanna play around with it, you're welcomed to do so.",
+      "author": "Shashank Sharma",
+      "id": 2
+    }
+  ]
+}

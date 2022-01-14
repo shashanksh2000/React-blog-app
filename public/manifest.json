@@ -1,0 +1,25 @@
+{
+  "short_name": "Blog App",
+  "name": "Blog App using react",
+  "icons": [
+    {
+      "src": "Blogs.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "Blogs.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "Blogs.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
