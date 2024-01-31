@@ -3,11 +3,11 @@ import useFetch from "./useFetch";
 
 const BlogDetails = () => {
   const { id } = useParams();
-  const { data: blog, error, isPending } = useFetch('https://blogg-json-server.herokuapp.com/blogs/' + id);
+  const { data: blog, error, isPending } = useFetch('https://json-blog-server.vercel.app/blogs/' + id);
   const history = useHistory();
 
   const handleClick = () => {
-    fetch('https://blogg-json-server.herokuapp.com/blogs/' + blog.id, {
+    fetch('https://json-blog-server.vercel.app/blogs/' + blog.id, {
       method: 'DELETE'
     }).then(() => {
       history.push('/');

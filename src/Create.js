@@ -11,7 +11,7 @@ const Create = () => {
     e.preventDefault();
     const blog = { title, body, author };
 
-    fetch('https://blogg-json-server.herokuapp.com/blogs/', {
+    fetch('https://json-blog-server.vercel.app/blogs/', {
       method: 'POST',
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(blog)
